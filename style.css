@@ -1,0 +1,462 @@
+/* fonts */
+/* Questrial, Ovo, Arial */
+
+/* page container */
+
+
+body {
+    margin: 0vh;
+    padding: 0vh;
+    /* font-family: Arial, Helvetica, sans-serif */
+    color: #1c2120;
+    overflow-x: hidden;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    height: 98vh;    
+    width: 99vw;
+    justify-content: center;
+    margin: 0vh;
+    /* flex-direction: column; */
+}
+
+.specialoffer {
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav {
+    display: flex;
+    height: 5%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    flex-direction: row;
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto+Mono:wght@100;400&display=swap');
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: lighter;
+    z-index: 1;
+    color: #4d4d4d;
+}
+
+.logo{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 8%;
+    background-color: white;
+    
+}
+
+.quickAccess {
+    display: block;
+    position: fixed;
+    right: 10%;
+    top: 8%
+}
+
+.navbar{
+    height: 8%;
+    width: 100%;
+    position: fixed;
+    top: 11%;
+    background-color: white;
+    
+}
+
+.navbar ul {
+    top: 0px;
+    /* width: 100%; */
+    display: inline;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar .listItem{
+    display: inline-block;
+    padding: 30px 10px;
+}
+
+.banner{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url("bannercropped.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.bannerText {
+    background-color: white;
+    position: absolute;
+    top: 23%;
+    left: 15%;
+    width:30%;
+    padding: 10px;
+    height: 300px;
+    text-align: left;
+}
+
+.bannerText h2 {
+    @import url('https://fonts.googleapis.com/css2?family=Ovo&family=Questrial&display=swap');
+    font-family: 'Ovo', serif;
+    font-weight:500;
+    font-size: 38px;
+    padding-left: 25px;
+    letter-spacing: 2px
+}
+
+.bannerText p {
+    @import url('https://fonts.googleapis.com/css2?family=Ovo&family=Questrial&display=swap');
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 25px;
+}
+
+.button {
+    background-color: #133135;
+    color: white;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    top: 130px;
+    right: 210px;
+}
+
+.reviews{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h1 {
+    font-family: 'Questrial', sans-serif;
+    font-weight:500;
+    font-size: 28px;
+    color: #4d4d4d;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    color: #4d4d4d;
+}
+
+h4 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: #969696;
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.forAFiver{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.forAFiverText {
+    width: 100%;
+    padding: 30px;
+}
+
+.forAFiverItems {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.item {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+}
+
+.itemPic img {
+    max-width: 250px;
+}
+
+.itemNamePrice {
+    text-align: left;
+}
+
+.forATenner{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
+
+.forATennerItems {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.waffle{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    background-color: #e7e1d7;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.waffleItem {
+    text-align: center;
+    line-height: 2px;
+}
+
+.waffleItem img {
+    max-height: 50px;
+}
+
+.waffleItem h4 {
+    color: #212121;
+    font-style: normal;
+}
+
+.waffleItem p {
+    color: #212121;
+    font-style: normal;
+}
+
+/* #border1 {
+    border-left: #d6cfc5;
+    border-right: #d6cfc5;
+    border-style: solid;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+#border2 {
+    border-left: transparent;
+    border-right: #d6cfc5;
+    border-style: solid;
+    border-top: transparent;
+    border-bottom: transparent;
+} */
+
+.coolKids{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.coolKidsText p {
+    font-family: 'Questrial', sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+.coolKidsItems {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.searchBar{
+    height: 15%;
+    width: 100%;
+    background-color: #e7e1d7;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.searchBar h2 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 200;
+    color: #212121;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.searchBar input {
+    width: 50%;
+    height: 25%;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.searchBar img {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.searchBar button {
+    border: none;
+    background-color: transparent;
+}
+
+.meetUs{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    /* background-color: #e7e1d7; */
+}
+
+.meetUs h2 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 200;
+    color: #212121;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.meetUs p {
+    font-family: 'Questrial', sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    color: #4d4d4d;
+    padding-bottom: 10px;
+}
+
+.meetUs img {
+    max-height: 100%;
+}
+
+.signUp{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #e7e1d7;
+    margin-top: 200px;
+}
+
+.signUp h2 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 200;
+    color: #212121;
+    font-size: 18px;
+}
+
+.signUp p {
+    font-family: 'Questrial', sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+.signUp button {
+    background-color: #133135;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-weight:500;
+    font-size: 12px;
+    padding: 15px;
+    border: none;
+}
+
+.signUp input {
+    padding: 13px;
+    font-family: 'Questrial', sans-serif;
+    width: 20%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #1a5f54;
+    color: white;
+    width: 100%;
+    height: 60%;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.footerBox1 {
+    width: 25%;
+    height: 70%;
+    /* margin-left: 2px; */
+}
+
+.footerBox2 {
+    width: 50%;
+    height: 30%;
+    text-align:justify;
+    padding-top: 20px;
+}
+
+.footerBox1 h4 {
+    font-style: normal;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.footerBox1 p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    line-height: 1.8;
+}
+
+.footerBox2 p {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
